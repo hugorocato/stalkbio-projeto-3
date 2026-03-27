@@ -1,0 +1,27 @@
+/* CORREÇÃO CRÍTICA:
+   Removemos o 'display: flex' e 'place-items: center' do body.
+   Isso permite que páginas longas rolem normalmente sem cortar o topo.
+*/
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #050505;
+  /* Garante que o navegador controla o scroll */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: block; /* Garante que o React ocupa o bloco todo */
+}
