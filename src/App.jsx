@@ -727,7 +727,7 @@ export default function App() {
                   <p style={{fontSize:12, color:'#B7BCCD', marginBottom:15}}>Acesso ao perfil de: @{data.username}</p>
                   <div className="price-tag" style={{color:'#fff', fontSize:28}}>R$ 29,90</div>
                   <div className="check-list">{[`Acesso ao perfil de @${data.username}`, 'Directs em tempo real', 'Fotos ocultas', 'Stories ocultos', 'Localização em tempo real', 'Acesso limitado'].map((feat, i) => (<div key={i} className="check-item"><CheckCircle2 size={18} color="#00FF81" />{feat}</div>))}</div>
-                  <a href={getCheckoutLink("https://ggcheckout.app/checkout/v5/ZyybfDAvTX26Dw2mYHUn")} target="_blank" rel="noreferrer" className="btn-buy btn-white">Escolher Plano</a>
+                  <a href={getCheckoutLink("https://go.perfectpay.com.br/PPU38CQAHFC")} target="_blank" rel="noreferrer" className="btn-buy btn-white">Escolher Plano</a>
                </div>
                <div className="plan-card plan-highlight">
                   <div className="best-tag">Mais Escolhido</div>
@@ -737,7 +737,7 @@ export default function App() {
                      <span className="price-tag" style={{fontSize: '36px', color: '#22C55E', fontWeight: 'bold', lineHeight: '1'}}>R$ 39,90</span>
                   </div>
                   <div className="check-list">{['Acesso completo ao perfil', 'Directs em tempo real', 'Stories ocultos dos últimos 30 dias', 'Fotos ocultas', 'Vídeos privados','Mensagens apagadas', 'Localização em tempo real com histórico', 'Notificações em tempo real de tudo que a pessoa faz', 'Relatórios detalhados de comportamento', 'Stalker quântico (efeito visual apenas)', 'Acesso vitalício'].map((feat, i) => (<div key={i} className="check-item"><CheckCircle2 size={18} color="#22C55E" />{feat}</div>))}</div>
-                  <a href={getCheckoutLink("https://ggcheckout.app/checkout/v5/2FCt9x6VxahUFVR2aZYW")} target="_blank" rel="noreferrer" className="btn-buy btn-green">Escolher Plano</a>
+                  <a href={getCheckoutLink("https://go.perfectpay.com.br/PPU38CQAHFD")} target="_blank" rel="noreferrer" className="btn-buy btn-green">Escolher Plano</a>
                </div>
             </div>
 
